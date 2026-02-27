@@ -1,0 +1,66 @@
+.wizard-root {
+  min-height: 100vh;
+  background: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wizard-header {
+  text-align: center;
+}
+
+.wizard-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.wizard-card-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.wizard-card-header h3 {
+  margin: 0;
+}
+
+.wizard-card-header p {
+  margin: 4px 0 0;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.wizard-footer {
+  margin: 20px;
+  color: #6b7280;
+}
+
+.wizard-divider {
+  width: 100vw;
+  height: 1px;
+  background: #e5e7eb;
+  margin: 16px;
+}
+
+.wizard-bottom {
+  width: 480px;
+  margin: 24px;
+}
+
+.wizard-step-text {
+  text-align: center;
+  color: #6b7280;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.wizard-actions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.wizard-actions button {
+  min-width: 140px;
+  height: 44px;
+}

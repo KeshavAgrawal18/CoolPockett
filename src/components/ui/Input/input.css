@@ -1,0 +1,37 @@
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #111827;
+}
+
+.input {
+  width: 100%;
+  height: 40px;
+  padding: 0 12px;
+
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+
+  font-size: 14px;
+
+  outline: none;
+}
+
+.input:focus {
+  border-color: #111827;
+}
+
+.input-error {
+  border-color: #dc2626;
+}
+
+.input-error-text {
+  margin-top: 4px;
+  font-size: 13px;
+  color: #dc2626;
+}

@@ -1,0 +1,48 @@
+.review-card {
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 16px;
+  background: white;
+}
+
+.review-card-highlight {
+  border: 2px solid #111827;
+}
+
+.review-card-title {
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.review-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.review-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.review-label {
+  color: #555;
+}
+
+.review-value {
+  font-weight: 500;
+}
+
+.preview-text {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.review-success {
+  text-align: center;
+}
+
+.review-success h3 {
+  margin-bottom: 16px;
+}
