@@ -8,21 +8,10 @@ import { ReviewRow } from "../review/ReviewRow";
 import "../review/review.css";
 
 export function Step4Review() {
-  const { state, back, reset } = useWizard();
+  const { state, reset } = useWizard();
 
-  const [loading, setLoading] = useState(false);
-  const [done, setDone] = useState(false);
-
-  const handleSubmit = async () => {
-    setLoading(true);
-
-    await new Promise((r) => setTimeout(r, 1200));
-
-    localStorage.removeItem("coolpockett-state");
-
-    setLoading(false);
-    setDone(true);
-  };
+  // const [loading, setLoading] = useState(false);
+  const [done] = useState(false);
 
   if (done) {
     return (
@@ -33,7 +22,7 @@ export function Step4Review() {
     );
   }
 
-  const { basics, setup, details } = state;
+  const { basics, setup } = state;
 
   return (
     <div>
